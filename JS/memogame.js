@@ -25,8 +25,8 @@ imgs.forEach(img=>{
   cardHTML += `
     <div class="memory-card" data-card="${img}">
 
-      <img draggable = false class="front-face" src="../../image/imgMemo/${img}"/>
-      <img draggable = false class="back-face" src="../../image/imgMemo/js-badge.svg">
+      <img draggable = false class="front-face" src="../image/imgMemo/${img}"/>
+      <img draggable = false class="back-face" src="../image/imgMemo/js-badge.svg">
     </div>`;
 });
 
