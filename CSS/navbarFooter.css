@@ -1,0 +1,60 @@
+
+
+.navbar{
+    height: 70px;
+    background-color: #309CFF;
+    filter: drop-shadow(0px 2px 3px rgb(68, 68, 68, 0.50));
+}
+
+.title{
+    font-family: 'Supermercado One', cursive;
+    margin-left: 90px;
+    position: relative;
+    top:-14px;  
+    color: white;
+}
+
+#logo{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: -20px;
+    filter: drop-shadow(0px 2px 5px rgb(80, 79, 79,0.25));
+}
+
+.footer{
+    flex-shrink: 0;
+    height: 81px;
+    width: 100vw;
+    background-color: red;
+    display: block;
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+}
+
+#footerContent{
+    position: relative;
+    color:white;
+    height: 100%;
+}
+
+#footerContent a{
+    background-color: #970404;
+    border-radius: 50px;
+    padding: 12px 20px 14px 20px;
+    line-height: 80px;
+    font-size: 32px;
+    font-family: 'Catamaran', sans-serif;
+    filter: drop-shadow(5px 2px 3px rgb(68, 68, 68, 0.75));
+    text-decoration: none;
+    color: white;
+}
+
+#footerContent a:hover{
+    background-color: #861313;
+}
+
+nav a{
+    padding: 0px;
+}

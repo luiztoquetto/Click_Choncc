@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="JOGO DO PANDA">
+        <meta name="description" content="Melhor jogo de javascript ja criado nessa década">
+        <meta name="author" content="Luiz, Leonardo e Luana">
+        <link rel="icon" type="image/png" href="image/iconepanda.png">
+        <title>CC - JumpJump</title>
+        <link rel="stylesheet" href="CSS/navbarFooter.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--Jquery-->
+        <script src = "JS/jquery-3.5.1.min.js"></script>
+        <style>
+
+            /* Posicionamento do canvas */
+            canvas{
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                margin: auto;
+            }
+
+            body,html{
+                background-image: url("../image/backgrounds/4.png");
+                /* background-color: #FCFAF2; */
+
+                /*Disable selection*/
+                -webkit-touch-callout: none; /* iOS Safari */
+                -webkit-user-select: none; /* Safari */
+                -khtml-user-select: none; /* Konqueror HTML */
+                -moz-user-select: none; /* Old versions of Firefox */
+                -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                            supported by Chrome, Edge, Opera and Firefox */
+                /*Disable draggable*/
+                -webkit-user-drag: none;
+                -khtml-user-drag: none;
+                -moz-user-drag: none;
+                -o-user-drag: none;
+            }
+        </style>
+
+        <script>
+            //Import navbar and footer.
+            $(function(){
+            $('#importNav').load('navbar.html')
+            });
+
+            $(function(){
+            $('#importFooter').load('footer.html')
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id = "importNav"></div>
+        <div id = "content" class = "container-md">
+            <div id="canvasId"></div>
+        </div>
+        <div id = "importFooter"></div>
+
+        
+        
+        <script src = "JS/SpriteJumpJump.js"></script>
+        <script src= "JS/jump.js"></script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC - SnakeLife</title>
+    <link rel="icon" type="image/png" href="image/iconepanda.png">
+    <style>
+        canvas{
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+        }
+        body,html{
+            background-image: url("../image/backgrounds/2.png");
+            /* background-color: #FCFAF2; */
+        }
+    </style>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Jquery-->
+    <script src = "JS/jquery-3.5.1.min.js"></script>
+
+    <script>
+        //Import navbar and footer.
+        $(function(){
+            $('#importNav').load('navbar.html')
+            });
+
+            $(function(){
+            $('#importFooter').load('footer.html')
+            });
+    </script>
+
+    <link rel="stylesheet" href="CSS/navbarFooter.css"> 
+</head>
+<body>
+    <div id = "importNav"></div>
+
+    <div id = "content" class = "container-md">
+        <canvas id="tabuleiro" width="600" height="600"></canvas>
+    </div>
+    
+    <div id = "importFooter"></div>
+    
+
+    <script src="JS/snake.js"></script>
+</body>
+</html>

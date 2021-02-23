@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-image: url("../image/backgrounds/1.png");
+    /*background-color: #FCFAF2 !important;*/
+}
+
+ul{
+    display: table;
+    margin: 0 auto;
+    list-style: none;
+}
+
+ul li{
+    float: right;
+    margin: 180px 50px 50px 50px;
+    height: 166px;
+    width: 166px;
+    background: linear-gradient(90deg, rgba(255,0,232,1) 0%, rgba(171,0,255,1) 53%, rgba(0,212,255,1) 100%);
+    border-radius: 57px 24px 57px 24px;
+    filter: drop-shadow(0px 2px 5px rgb(80, 79, 79,0.25));
+}
+
+#logo{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: -20px;
+    filter: drop-shadow(0px 2px 5px rgb(80, 79, 79,0.25));
+}
+
+#content{
+    flex: 1 0 auto;
+    margin-top: 50px;
+    
+}
+
+
+img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: 0px;
+    border-radius: 50px 15px 50px 15px;
+}
+
+#jumpImg{
+    object-position: 5% 0;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #309CFF;
+    filter: drop-shadow(0px 2px 3px rgb(68, 68, 68, 0.50));
+}
+
+.title{
+    font-family: 'Supermercado One', cursive;
+    margin-left: 90px;
+    position: relative;
+    top:-14px;  
+    color: white;
+}
+
+.footer{
+    flex-shrink: 0;
+    height: 81px;
+    width: 100vw;
+    background-color: red;
+    display: block;
+    text-align: right;
+}
+
+#footerContent{
+    position: relative;
+    color:white;
+    height: 100%;
+}
+
+#footerContent a{
+    background-color: #970404;
+    border-radius: 50px;
+    padding: 12px 20px 14px 20px;
+    line-height: 80px;
+    font-size: 32px;
+    font-family: 'Catamaran', sans-serif;
+    filter: drop-shadow(5px 2px 3px rgb(68, 68, 68, 0.75));
+    text-decoration: none;
+    color: white;
+}
+
+#footerContent a:hover{
+    background-color: #861313;
+}
+
+a{
+    padding: 0px 0px 100px 0px;
+}
+
+nav a{
+    padding: 0px;
+  
+}
+
+.popover-body{
+    text-align: center;
+}
+
+.swal-footer{
+    text-align: center;
+  }
+
+.swal-modal{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 20px;
+}
+
+.swal-button{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+

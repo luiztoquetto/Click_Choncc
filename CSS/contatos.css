@@ -1,0 +1,66 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("../image/backgrounds/1.png");
+    /* background-color: #FCFAF2 !important; */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card{
+    box-shadow: 0px 11px 24px -12px rgba(0,0,0,0.75);
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 50px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#textoContato{
+    margin-left: 20px;
+}
+
+#circle
+{
+  width:80px;
+  height:80px;
+  background-color: salmon;
+  border-radius:100%;
+  background-image:url(../image/furao.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60px 60px;
+}
+
+.img, #circle{
+    filter: drop-shadow(0px 11px 24px - 12px rgba(0,0,0,0.75));
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    margin: 20px;
+}
+
+#img{
+    background-color: #CC3333;
+    width: 0 auto;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+#imgg{
+    background-color: #66ACEC;
+    width: 0 auto;
+    margin: 0 auto;
+    border-radius: 50px;
+}
